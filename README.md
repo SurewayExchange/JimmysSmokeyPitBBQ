@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jimmy's Smokey Pit BarBecue
 
-## Getting Started
+Dark rustic butcher-shop website for **Jimmy's Smokey Pit BarBecue**, inspired by the BBque | Butcher, Meat Shop Shopify theme. Live social proof points to [instagram.com/thesmokeypit31](https://www.instagram.com/thesmokeypit31/).
 
-First, run the development server:
+## Run locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Routes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Path | Page |
+| --- | --- |
+| `/` | Home / hero / counter tiles / featured cuts |
+| `/menu` | The Counter — signature pit meats |
+| `/gallery` | Pit stills + Instagram embed |
+| `/about` | The Pit story |
+| `/contact` | Hours, location CTA, catering / order |
 
-## Learn More
+## Images
 
-To learn more about Next.js, take a look at the following resources:
+Instagram login walls blocked a direct scrape of `@thesmokeypit31`. Licensed Unsplash barbecue and butcher photography is stored in `public/assets/`. The site embeds the live Instagram profile and does not invent review photos.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Scripts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `npm run dev` — development
+- `npm run build` — production build
+- `npm start` — serve the production build
